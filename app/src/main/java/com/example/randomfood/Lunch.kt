@@ -22,21 +22,21 @@ class Lunch : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lunch)
 
-        twFoods.add(Food("tw1",80))
-        twFoods.add(Food("tw2",120))
-        twFoods.add(Food("tw3",400))
+        twFoods.add(Food("7-11香蒜白酒蛤蜊義大利麵",80))
+        twFoods.add(Food("台市夜市牛排",120))
+        twFoods.add(Food("港式飲茶",400))
 
-        jpFoods.add(Food("jp1", 80))
-        jpFoods.add(Food("jp2", 120))
-        jpFoods.add(Food("jp3", 400))
+        jpFoods.add(Food("沒錢還想吃日式阿", 80))
+        jpFoods.add(Food("商業定食", 160))
+        jpFoods.add(Food("迴轉壽司十盤", 400))
 
-        amFoods.add(Food("am1", 80))
-        amFoods.add(Food("am2", 120))
-        amFoods.add(Food("am3", 400))
+        amFoods.add(Food("麥當勞", 80))
+        amFoods.add(Food("貴一點的麥當勞", 180))
+        amFoods.add(Food("高級五星級餐廳", 400))
 
-        krFoods.add(Food("kr1", 80))
-        krFoods.add(Food("kr2", 120))
-        krFoods.add(Food("kr3", 400))
+        krFoods.add(Food("泡菜一盤", 80))
+        krFoods.add(Food("韓式鍋", 120))
+        krFoods.add(Food("銅盤烤肉", 300))
 
 
         val twBtn = findViewById<Button>(R.id.twBtn)
